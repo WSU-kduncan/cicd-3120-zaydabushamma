@@ -24,6 +24,22 @@
 ```
 ![Screenshot 2022-12-04 030656](https://user-images.githubusercontent.com/77698851/205480639-703b6f85-53b4-43d1-b15b-1d8090602b42.png)
 
+- How to authenticate with DockerHub via CLI using Dockerhub credentials
+```
+- use command sudo docker login -u zaydabu(will be prompted for password if not root)
+```
+- How to push container to Dockerhub
+```
+- sudo docker push zaydabushamma/ceg3120
+```
+- Configuring GitHub Secrets
+```
+- navigate to github repository settings and choose secrets, then actions and finally new repository secret.
+- create secret for your dockerHub username and anotherone for your password using the Docker_token.
+```
+
+
+
 
 
 
