@@ -1,9 +1,9 @@
 ## part 1 Dockerize it
 
--install docker
---insta
-#ins
-"s"
+- install docker
+-- insta
+# ins
+'s'
 
 
 
