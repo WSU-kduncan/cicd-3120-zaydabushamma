@@ -48,12 +48,21 @@ configured was my username and password.(workflowfile will have to be changed to
 
 - Description of container restart script
 ```
-docker stop site- stops the current active image
-docker rm site- remove conatiner image and free up port 8080
-docker pull momankhoney/my-first-repo:latest- pull the new image to your machine
-docker run -d --restart unless-stopped -p 8080:80 --name site zaydabu/my-first-repo- run container on port 80 in detached mode.
+- docker stop site- stops the current active image
+- docker rm site- remove conatiner image and free up port 8080
+- docker pull momankhoney/my-first-repo:latest- pull the new image to your machine
+- docker run -d --restart unless-stopped -p 8080:80 --name site zaydabu/my-first-repo- run container on port 80 in detached mode.
 ```
 - Setting up a webhook on the server
+```
+a listener was created by telling file to listen for any github action, such as a push.
+---wget https://dl.google.com/go/go1.19.3.linux-amd64.tar.gz--- will download and install Go
+---sudo tar -C /usr/local -xzf go1.19.3.linux-amd64.tar.gz---  
+---export PATH=$PATH:/usr/local/go/bin--- 
+---go version--- 
+
+---go install github.com/adnanh/webhook@latest--- install webhook
+---vim hooks.json--- and modify to 
 
 
 
