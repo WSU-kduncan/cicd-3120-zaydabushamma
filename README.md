@@ -46,7 +46,14 @@ configured was my username and password.(workflowfile will have to be changed to
 
 ## part 3 Deployment
 
-
+- Description of container restart script
+```
+docker stop site- stops the current active image
+docker rm site- remove conatiner image and free up port 8080
+docker pull momankhoney/my-first-repo:latest- pull the new image to your machine
+docker run -d --restart unless-stopped -p 8080:80 --name site zaydabu/my-first-repo- run container on port 80 in detached mode.
+```
+- Setting up a webhook on the server
 
 
 
