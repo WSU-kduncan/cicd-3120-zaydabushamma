@@ -21,6 +21,7 @@
 - how to create public repo in dockerHub
 ```
 - click on repositories on the top and click create repository as shown in the image below
+```
 ![Screenshot 2022-12-04 030656](https://user-images.githubusercontent.com/77698851/205480639-703b6f85-53b4-43d1-b15b-1d8090602b42.png)
 
 
