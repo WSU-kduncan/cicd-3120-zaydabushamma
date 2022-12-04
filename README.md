@@ -63,6 +63,29 @@ a listener was created by telling file to listen for any github action, such as 
 
 ---go install github.com/adnanh/webhook@latest--- install webhook
 ---vim hooks.json--- and modify to 
+[
+  {
+    "id": "potato",
+    "execute-command": "/home/ubuntu/cicd-3120-zaydabushamma/refresh.sh",
+    "command-working-directory": "/var/webhook"
+  }
+]
+---/home/ubuntu/go/bin/webhook -hooks /home/ubuntu/hooks.json -verbose--- To run
+```
+- Description of Webhook task definition file
+```
+This file creates the parameters of the link for the webhook. This means defining the hook id, the start 
+script, as well as defining a personal key for authentication.
+```
+- Steps to set up a notifier in GitHub or DockerHub
+```
+- login to Dockerhub
+- click on the Repositories tab.
+- Click on your repository
+- click Webhooks tab
+- enter a Webhook name and URL to create
+```
+
 
 
 
