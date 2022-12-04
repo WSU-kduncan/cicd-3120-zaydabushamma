@@ -85,6 +85,10 @@ script, as well as defining a personal key for authentication.
 - click Webhooks tab
 - enter a Webhook name and URL to create
 ```
+## Part 4 Diagramming
+
+![Screenshot 2022-12-04 030656](https://user-images.githubusercontent.com/77698851/205485824-749f5439-2f4b-45b3-bbbc-19c212a07b49.png)
+
 
 
 
