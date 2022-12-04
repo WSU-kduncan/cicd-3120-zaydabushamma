@@ -87,7 +87,8 @@ script, as well as defining a personal key for authentication.
 ```
 ## Part 4 Diagramming
 
-![Screenshot 2022-12-04 030656](https://user-images.githubusercontent.com/77698851/205485824-749f5439-2f4b-45b3-bbbc-19c212a07b49.png)
+![Screenshot 2022-12-04 053107](https://user-images.githubusercontent.com/77698851/205485856-54a706c8-2b45-4c32-ab37-b003f32c32ff.png)
+
 
 
 
