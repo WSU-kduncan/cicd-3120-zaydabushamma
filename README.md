@@ -41,7 +41,7 @@
 ```
 Workflow will build and push images to your DockerHub, it will do this by verifying your username and DockerHub access token.
 the workflow will be triggered when a git push is ran for this repository.
-configured was my username and password.(workfile will have to be changed to adjust to custom variables)
+configured was my username and password.(workflowfile will have to be changed to adjust to custom variables)
 ```
 
 ## part 3 Deployment
